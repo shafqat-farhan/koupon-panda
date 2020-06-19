@@ -28,7 +28,10 @@ const Header = () => {
           <Image src={Logo} className="koupon-logo-text" />
         </Navbar.Brand>
         <Nav className="mx-auto w-100 justify-content-center align-items-center d-lg-none d-sm-block d-md-none position-absolute koupon-mobile-logo">
-          <Image src={MobileLogo} className="d-lg-none d-sm-block d-md-none" />
+          <Image
+            src={MobileLogo}
+            className="d-lg-none d-sm-block d-md-none koupon-mobile-header-image"
+          />
           <FontAwesomeIcon
             icon={faSearch}
             className="position-absolute koupon-mobile-search-icon"

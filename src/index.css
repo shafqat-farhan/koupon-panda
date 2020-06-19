@@ -451,7 +451,7 @@ body {
 }
 
 .koupon-mobile-deals-slider-parent .slick-slide .card {
-  margin: 15px 2px 30px 2px;
+  margin: 15px 3px 30px 3px;
 }
 
 /**********************Offers Mobile**********************/
@@ -606,7 +606,7 @@ body {
 }
 
 .koupon-mobile-offers-slider-parent .slick-slide .card {
-  margin: 15px 2px 30px 2px;
+  margin: 15px 3px 30px 3px;
 }
 
 /*********************************************************/
@@ -705,18 +705,18 @@ body {
     top: 22px;
   }
   .bg-header-koupon {
-    padding: 22px 28px 22px 28px !important;
+    padding: 15px !important;
     margin: 0 !important;
   }
   .koupon-mobile-search-icon {
     color: #fff;
-    right: 28px;
-    width: 36px !important;
-    height: 36px !important;
+    right: 15px;
+    width: 20px !important;
+    height: 20px !important;
   }
   .navbar-dark .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-    font-size: 36px;
+    font-size: 20px;
   }
   .container-body-koupon {
     padding: 0;
@@ -842,6 +842,10 @@ body {
   .koupon-mobile-vertical-slider-parent .slick-prev::before {
     content: none;
   }
+
+  .koupon-mobile-header-image {
+    height: 40px !important;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 480px) and (min-height: 800px) {
@@ -863,7 +867,7 @@ body {
   }
 
   .koupon-mobile-deals-slider-parent .slick-slide .card {
-    margin: 15px 5px 30px 5px;
+    margin: 15px 6px 30px 6px;
   }
 
   .koupon-mobile-offers-slider-parent .card {
@@ -871,7 +875,7 @@ body {
   }
 
   .koupon-mobile-offers-slider-parent .slick-slide .card {
-    margin: 15px 5px 30px 5px;
+    margin: 15px 6px 30px 6px;
   }
 }
 

@@ -47,6 +47,40 @@ const MobileCategoriesCarousel = () => {
             </Col>
           </Row>
         </Carousel.Item>
+        <Carousel.Item>
+          <Row className="text-center m-0">
+            <Col className="d-inline-block p-0">
+              <div className="img fashion">
+                <img src={Fashion} alt="First slide" />
+              </div>
+              <span>Fashion</span>
+            </Col>
+            <Col className="d-inline-block p-0">
+              <div className="img food">
+                <img src={Food} alt="First slide" />
+              </div>
+              <span>Food</span>
+            </Col>
+            <Col className="d-inline-block p-0">
+              <div className="img travel">
+                <img src={Travel} alt="First slide" />
+              </div>
+              <span>Travel</span>
+            </Col>
+            <Col className="d-inline-block p-0">
+              <div className="img electronics">
+                <img src={Electronics} alt="First slide" />
+              </div>
+              <span>Electronics</span>
+            </Col>
+            <Col className="d-inline-block p-0">
+              <div className="img beauty">
+                <img src={Beauty} alt="First slide" />
+              </div>
+              <span>Beauty</span>
+            </Col>
+          </Row>
+        </Carousel.Item>
       </Carousel>
     </Container>
   );
