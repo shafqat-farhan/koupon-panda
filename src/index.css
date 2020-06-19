@@ -1,0 +1,1560 @@
+/*!
+ * Start Bootstrap - Heroic Features (https://startbootstrap.com/template-overviews/heroic-features)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-heroic-features/blob/master/LICENSE)
+ */
+
+/***********************FONT CSS*******************************/
+
+@font-face {
+  font-family: nunito-black;
+  src: url("./fonts/Nunito/Nunito-Black.ttf");
+}
+
+@font-face {
+  font-family: nunito-regular;
+  src: url("./fonts/Nunito/Nunito-Regular.ttf");
+}
+
+@font-face {
+  font-family: nunito-light;
+  src: url("./fonts/Nunito/Nunito-Light.ttf");
+}
+
+@font-face {
+  font-family: nunito-bold;
+  src: url("./fonts/Nunito/Nunito-Bold.ttf");
+}
+
+@font-face {
+  font-family: nunito-semi-bold;
+  src: url("./fonts/Nunito/Nunito-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: changa-light;
+  src: url("./fonts/Changa/static/Changa-Light.ttf");
+}
+
+@font-face {
+  font-family: changa-semi-bold;
+  src: url("./fonts/Changa/static/Changa-SemiBold.ttf");
+}
+
+/**************************************************************/
+
+body {
+  background: #f5f7f9 0% 0% no-repeat padding-box;
+}
+
+.koupon-logo-text {
+  font-family: nunito-black;
+  font-size: 22px;
+  letter-spacing: -0.22px;
+  color: #ffffff;
+}
+
+.koupon-mobile-logo {
+  left: 0;
+}
+
+.bg-header-koupon {
+  background: #041e42 0% 0% no-repeat padding-box;
+  padding: 15px !important;
+}
+
+.search-header-koupon {
+  border-radius: 100px !important;
+  width: 495px !important;
+  height: 44px !important;
+  font-size: 13px;
+  padding-left: 22px;
+}
+
+.search-header-icon-span-koupon {
+  right: 22px;
+}
+
+.search-header-icon-koupon {
+  font-size: 12px;
+}
+
+.logo-koupon {
+  width: 61px;
+  height: 35px;
+  margin-left: 9px;
+}
+
+.koupon-nav-item-a {
+  font-family: changa-light;
+  letter-spacing: -0.15px;
+  color: #ffffff !important;
+  font-size: 15px;
+}
+
+.koupon-nav-item-a .dropdown-menu {
+  left: unset;
+  right: 0;
+}
+
+.koupon-nav-item-a > a {
+  font-family: nunito-light;
+  letter-spacing: -0.15px;
+  color: #ffffff !important;
+  font-size: 14px;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 5%;
+  opacity: 1;
+}
+
+.koupon-banner-carousel {
+  margin-bottom: 20px !important;
+}
+
+.koupon-mobile-footer {
+  padding: 30px 30px 18px 30px;
+  background: #041e42 0% 0% no-repeat padding-box;
+}
+.koupon-panda-mobile-footer-logo-inner-text {
+  width: 199px;
+  font-family: nunito-light;
+  color: #fff;
+  font-size: 10px;
+  letter-spacing: 0.05px;
+  float: right;
+  margin-top: 16px;
+}
+.koupon-panda-mobile-footer-logo-inner {
+  margin-bottom: 33px;
+}
+
+.koupon-panda-mobile-footer-menu ul li {
+  display: inline;
+}
+
+.koupon-panda-mobile-footer-menu-text {
+  font-family: nunito-regular;
+  font-size: 13px;
+  color: #fff;
+  letter-spacing: 0.97px;
+}
+
+.koupon-panda-mobile-footer-menu {
+  margin-bottom: 33px;
+}
+
+.subscribe-mobile-footer-koupon {
+  width: 289px !important;
+  height: 43px;
+  background: #3a4972 0% 0% no-repeat padding-box;
+  border-radius: 22px !important;
+  border: none;
+}
+
+.subscribe-mobile-footer-koupon::placeholder {
+  font-family: nunito-regular;
+  letter-spacing: 0.9px;
+  color: #ffffff;
+  font-size: 9px;
+  opacity: 0.5;
+}
+
+.subscribe-mobile-footer-icon-span-koupon {
+  position: absolute;
+  color: #fff;
+  right: 12px;
+  top: 12px;
+}
+
+.koupon-mobile-footer-search {
+  margin-bottom: 33px;
+}
+
+.koupon-mobile-footer-title-heading {
+  letter-spacing: 1.05px;
+  color: rgb(255, 255, 255);
+  font-family: nunito-bold;
+  font-size: 15px;
+}
+
+.koupon-mobile-footer-social-icons img {
+  margin: 13px 13px 15px 13px;
+}
+
+.koupon-mobile-footer-social-icons-facebook {
+  width: 13px 13px 15px 13px;
+}
+
+.koupon-mobile-footer-social-icons-twitter,
+.koupon-mobile-footer-social-icons-insta {
+  width: 25px;
+}
+
+.koupon-mobile-footer-contact-email {
+  letter-spacing: 0.82px;
+  color: #ffffff;
+  font-size: 11px;
+  font-family: nunito-light;
+  margin-bottom: 30px;
+}
+
+.koupon-mobile-footer-email {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 4px;
+}
+
+.koupon-mobile-footer-terms,
+.koupon-mobile-footer-policy {
+  font-family: nunito-regular;
+  font-size: 6px;
+  letter-spacing: 1.32px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 0 6px 0 6px;
+}
+
+.koupon-mobile-footer-terms-policy {
+  margin-bottom: 6px;
+}
+
+.koupon-mobile-footer-copy-rights {
+  letter-spacing: 1.1px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 0.5;
+  font-family: nunito-regular;
+  font-size: 5px;
+}
+
+.koupon-mobile-panda-guide-book {
+  margin-bottom: 15px;
+}
+
+.koupon-mobile-panda-guide-book img {
+  width: 210px;
+  height: 298px;
+}
+
+.koupon-mobile-panda-guide-heading {
+  letter-spacing: -0.37px;
+  color: #041e42;
+  font-family: nunito-black;
+  font-size: 37px;
+}
+
+.koupon-mobile-panda-guide-text {
+  letter-spacing: -0.15px;
+  color: #041e42;
+  font-family: nunito-light;
+  font-size: 15px;
+  display: block;
+  width: 210px;
+  margin: auto;
+}
+
+.koupon-mobile-panda-guide-button {
+  display: table;
+  margin: auto;
+  width: 128px;
+  height: 45px;
+  background: #00ab8e 0% 0% no-repeat padding-box;
+  box-shadow: 0px 8px 22px #60606029;
+  border-radius: 23px;
+  margin-top: 8px;
+}
+
+.koupon-mobile-panda-guide-anchor {
+  text-align: center;
+  letter-spacing: -0.14px;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-family: nunito-black;
+  display: table-cell;
+  vertical-align: middle;
+  text-decoration: none;
+  margin: 0px auto;
+}
+
+.koupon-mobile-panda-guide {
+  margin-bottom: 30px;
+}
+
+.koupon-mobile-banner-ad {
+  margin-bottom: 30px;
+}
+
+.koupon-mobile-banner-ad img {
+  width: 320px;
+  height: 100px;
+}
+
+.koupon-mobile-vertical-slider-parent {
+  margin-bottom: 25px;
+}
+
+#myMobileDealsSliderContainer {
+  font-family: nunito-bold;
+  letter-spacing: -0.15px;
+  color: #242635;
+}
+
+#myMobileDealsSliderContainer > h3 {
+  font-size: 15px !important;
+  margin: 0 !important;
+}
+
+.koupon-mobile-deals-slider-parent .slick-next {
+  right: 2px !important;
+  background-image: url("../src/images/Rounded_Rectangle.svg");
+  border-radius: 50%;
+  width: 15px;
+  top: 45% !important;
+  height: 15px;
+  background: #ffffff url("../src/images/Rounded_Rectangle.svg") 50% 50%
+    no-repeat padding-box;
+  box-shadow: 0px 3px 10px #60606029;
+  background-size: 4px !important;
+}
+
+.koupon-mobile-deals-slider-parent .slick-prev {
+  left: 2px !important;
+  z-index: 9999;
+  background-image: url("../src/images/method-draw-image.svg");
+  border-radius: 50%;
+  width: 15px;
+  top: 45% !important;
+  height: 15px;
+  background: #ffffff url("../src/images/method-draw-image.svg") 50% 50%
+    no-repeat padding-box;
+  box-shadow: 0px 3px 10px #60606029;
+  background-size: 4px !important;
+}
+
+.koupon-mobile-deals-slider-parent .slick-prev:hover,
+.koupon-mobile-deals-slider-parent .slick-prev:focus {
+  background: #ffffff url("../src/images/method-draw-image.svg") 50% 50%
+    no-repeat padding-box !important;
+  box-shadow: 0px 3px 10px #60606029;
+  background-size: 4px !important;
+}
+.koupon-mobile-deals-slider-parent .slick-next:hover,
+.koupon-mobile-deals-slider-parent .slick-next:focus {
+  background: #ffffff url("../src/images/Rounded_Rectangle.svg") 50% 50%
+    no-repeat padding-box !important;
+  box-shadow: 0px 3px 10px #60606029;
+  background-size: 4px !important;
+}
+
+.koupon-mobile-deals-slider-parent .slick-next::before,
+.koupon-mobile-deals-slider-parent .slick-prev::before {
+  content: none;
+}
+
+.koupon-mobile-deals-slider-parent .card {
+  width: 105px !important;
+  height: 140px;
+}
+
+.deals-koupon-mobile-slider-card {
+  border: 0;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 8px 22px #60606029;
+  border-radius: 8px;
+}
+
+.deals-koupon-mobile-slider-img-yellow {
+  background: #feee00 0% 0% no-repeat padding-box;
+}
+
+.deals-koupon-mobile-slider-img-yellow > img {
+  width: 74px;
+}
+
+.deals-koupon-mobile-slider-img-blue {
+  background: #008bff 0% 0% no-repeat padding-box;
+}
+
+.deals-koupon-mobile-slider-img-blue > img {
+  width: 62px;
+}
+
+.deals-koupon-mobile-slider-img-red {
+  background: #e20714 0% 0% no-repeat padding-box;
+}
+
+.deals-koupon-mobile-slider-img-red > img {
+  width: 86px;
+}
+
+.deals-koupon-mobile-slider-img-black {
+  background: #000000 0% 0% no-repeat padding-box;
+}
+
+.deals-koupon-mobile-slider-img-black > img {
+  width: 50px;
+}
+
+.deals-koupon-mobile-slider-img-black-one {
+  background: #000000 0% 0% no-repeat padding-box;
+}
+
+.deals-koupon-mobile-slider-img-black-one > img {
+  width: 55px;
+}
+
+.deals-koupon-mobile-slider-card > div {
+  border-radius: 5px 5px 0px 0px;
+  height: 67px;
+  width: 100%;
+}
+
+.deals-koupon-mobile-slider-timer {
+  background: url(../src/images/iconfinder_Reminder_1393653.svg);
+  background-repeat: no-repeat;
+  text-align: left;
+  background-position: 7px 12px;
+  background-size: 6px 6px;
+  padding: 0 10px 0 10px;
+}
+
+.deals-koupon-mobile-slider-timer-p {
+  margin-top: 8px;
+  letter-spacing: -0.11px;
+  color: #242635;
+  font-size: 11px;
+  font-family: nunito-bold;
+}
+
+.deals-koupon-mobile-slider-timer-span {
+  margin-left: 5px;
+  font-size: 6px;
+  letter-spacing: -0.06px;
+  color: #242635;
+  font-family: nunito-light;
+}
+
+.deals-koupon-mobile-slider-card {
+  border: 0;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 8px 22px #60606029;
+  border-radius: 5px;
+  outline: none !important;
+}
+
+.koupon-mobile-deals-slider-parent .slick-slide .card {
+  margin: 15px 2px 30px 2px;
+}
+
+/**********************Offers Mobile**********************/
+
+#myMobileOffersSliderContainer {
+  font-family: nunito-bold;
+  letter-spacing: -0.15px;
+  color: #242635;
+}
+
+#myMobileOffersSliderContainer > h3 {
+  font-size: 15px !important;
+  margin: 0 !important;
+}
+
+.koupon-mobile-offers-slider-parent .slick-next {
+  right: 2px !important;
+  background-image: url("../src/images/Rounded_Rectangle.svg");
+  border-radius: 50%;
+  width: 15px;
+  top: 45% !important;
+  height: 15px;
+  background: #ffffff url("../src/images/Rounded_Rectangle.svg") 50% 50%
+    no-repeat padding-box;
+  box-shadow: 0px 3px 10px #60606029;
+  background-size: 4px !important;
+}
+
+.koupon-mobile-offers-slider-parent .slick-prev {
+  left: 2px !important;
+  z-index: 9999;
+  background-image: url("../src/images/method-draw-image.svg");
+  border-radius: 50%;
+  width: 15px;
+  top: 45% !important;
+  height: 15px;
+  background: #ffffff url("../src/images/method-draw-image.svg") 50% 50%
+    no-repeat padding-box;
+  box-shadow: 0px 3px 10px #60606029;
+  background-size: 4px !important;
+}
+
+.koupon-mobile-offers-slider-parent .slick-prev:hover,
+.koupon-mobile-offers-slider-parent .slick-prev:focus {
+  background: #ffffff url("../src/images/method-draw-image.svg") 50% 50%
+    no-repeat padding-box !important;
+  box-shadow: 0px 3px 10px #60606029;
+  background-size: 4px !important;
+}
+.koupon-mobile-offers-slider-parent .slick-next:hover,
+.koupon-mobile-offers-slider-parent .slick-next:focus {
+  background: #ffffff url("../src/images/Rounded_Rectangle.svg") 50% 50%
+    no-repeat padding-box !important;
+  box-shadow: 0px 3px 10px #60606029;
+  background-size: 4px !important;
+}
+
+.koupon-mobile-offers-slider-parent .slick-next::before,
+.koupon-mobile-offers-slider-parent .slick-prev::before {
+  content: none;
+}
+
+.koupon-mobile-offers-slider-parent .card {
+  width: 105px !important;
+  height: 140px;
+}
+
+.offers-koupon-mobile-slider-card {
+  border: 0;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 8px 22px #60606029;
+  border-radius: 8px;
+}
+
+.offers-koupon-mobile-slider-img-dark-red {
+  background: #d6001c 0% 0% no-repeat padding-box;
+}
+
+.offers-koupon-mobile-slider-img-dark-red > img {
+  width: 74px;
+}
+
+.offers-koupon-mobile-slider-img-dark-blue {
+  background: #003773 0% 0% no-repeat padding-box;
+}
+
+.offers-koupon-mobile-slider-img-dark-blue > img {
+  width: 73px;
+}
+
+.offers-koupon-mobile-slider-img-orange {
+  background: #ff4610 0% 0% no-repeat padding-box;
+}
+
+.offers-koupon-mobile-slider-img-orange > img {
+  width: 80px;
+}
+
+.offers-koupon-mobile-slider-img-black {
+  background: #000000 0% 0% no-repeat padding-box;
+}
+
+.offers-koupon-mobile-slider-img-black > img {
+  width: 65px;
+}
+
+.offers-koupon-mobile-slider-img-pink {
+  background: #ff244f 0% 0% no-repeat padding-box;
+}
+
+.offers-koupon-mobile-slider-img-pink > img {
+  width: 45px;
+}
+
+.offers-koupon-mobile-slider-card > div {
+  border-radius: 5px 5px 0px 0px;
+  height: 67px;
+  width: 100%;
+}
+
+.offers-koupon-mobile-slider-timer {
+  background: url(../src/images/iconfinder_Reminder_1393653.svg);
+  background-repeat: no-repeat;
+  text-align: left;
+  background-position: 7px 12px;
+  background-size: 6px 6px;
+  padding: 0 10px 0 10px;
+}
+
+.offers-koupon-mobile-slider-timer-p {
+  margin-top: 8px;
+  letter-spacing: -0.11px;
+  color: #242635;
+  font-size: 11px;
+  font-family: nunito-bold;
+}
+
+.offers-koupon-mobile-slider-timer-span {
+  margin-left: 5px;
+  font-size: 6px;
+  letter-spacing: -0.06px;
+  color: #242635;
+  font-family: nunito-light;
+}
+
+.offers-koupon-mobile-slider-card {
+  border: 0;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 8px 22px #60606029;
+  border-radius: 5px;
+  outline: none !important;
+}
+
+.koupon-mobile-offers-slider-parent .slick-slide .card {
+  margin: 15px 2px 30px 2px;
+}
+
+/*********************************************************/
+
+/**********************MEDIA QUERIES*********************/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  body {
+    background: #ffffff 0% 0% no-repeat padding-box !important;
+  }
+  .navbar-collapse {
+    position: fixed;
+    top: 0;
+    right: 100%;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease;
+    display: block;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    z-index: 10000;
+  }
+  .navbar-collapse.collapsing {
+    height: 100% !important;
+    margin-right: 50%;
+    transition: all 0.3s ease;
+    display: block;
+  }
+  .navbar-collapse.show {
+    right: 0;
+  }
+  .navbar-toggler {
+    z-index: 1;
+    padding: 0;
+    border: 0;
+  }
+  .navbar-toggler:focus,
+  .navbar-toggler:active {
+    outline: none !important;
+    box-shadow: none;
+  }
+  .koupon-nav-item-a {
+    font-family: nunito-light;
+    letter-spacing: -0.15px;
+    color: #000000 !important;
+    font-size: 15px;
+    padding: 16px 16px;
+    border-bottom: 1px solid #f5f5f5;
+  }
+  .koupon-nav-item-a-bottom-fixed {
+    display: inline-block;
+    padding: 18px 18px;
+    margin-left: 15px;
+    letter-spacing: -0.15px;
+    color: #ffffff !important;
+    font-family: nunito-light;
+    font-size: 15px;
+  }
+  .koupon-nav-item-span-bottom-fixed-arabic {
+    padding-top: 18px;
+    letter-spacing: -0.15px;
+    color: #ffffff !important;
+    font-family: changa-semi-bold;
+    font-size: 17px;
+    float: right;
+    margin-right: 15px;
+  }
+  .koupon-nav-item-span-bottom-fixed-english {
+    padding-top: 18px;
+    letter-spacing: -0.15px;
+    color: #ffffff !important;
+    font-family: nunito-black;
+    font-size: 17px;
+    float: right;
+    margin-right: 15px;
+  }
+  .koupon-mobile-menu-bottom {
+    bottom: 0;
+    background: #041e42 0% 0% no-repeat padding-box;
+    width: 100%;
+    left: 0;
+  }
+  .koupon-mobile-menu-bottom-inner {
+    border-bottom: 1px solid white;
+  }
+  .koupon-nav-item-a:last-child {
+    border: none;
+  }
+  .koupon-nav-item {
+    padding: 30px;
+  }
+  .koupon-mobile-cross-icon {
+    right: 22px;
+    width: 24px !important;
+    height: 24px !important;
+    border-radius: 100px;
+    top: 22px;
+  }
+  .bg-header-koupon {
+    padding: 22px 28px 22px 28px !important;
+    margin: 0 !important;
+  }
+  .koupon-mobile-search-icon {
+    color: #fff;
+    right: 28px;
+    width: 36px !important;
+    height: 36px !important;
+  }
+  .navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    font-size: 36px;
+  }
+  .container-body-koupon {
+    padding: 0;
+  }
+  .koupon-mobile-menu-logo-text {
+    font-family: nunito-black;
+    font-size: 15px;
+    letter-spacing: -0.15px;
+  }
+  .koupon-mobile-menu-logo-slogan {
+    font-family: nunito-light;
+    font-size: 15px;
+    letter-spacing: -0.15px;
+  }
+  .koupon-mobile-menu-logo {
+    /*padding-top: 36px;*/
+    padding-bottom: 8px;
+    /*margin-bottom: 108px;*/
+  }
+  .koupon-mobile-menu-vertically-align {
+    padding: 10% 0 10% 0 !important;
+  }
+  #myCategories .img {
+    width: 63px !important;
+    height: 63px !important;
+  }
+  #myCategories .fashion img {
+    width: 18px !important;
+    height: 100%;
+  }
+
+  #myCategories .food img {
+    width: 23px !important;
+    height: 100%;
+  }
+
+  #myCategories .travel img {
+    width: 34px !important;
+    height: 100%;
+  }
+
+  #myCategories .electronics img {
+    width: 14px !important;
+    height: 100%;
+  }
+
+  #myCategories .beauty img {
+    width: 27px !important;
+    height: 100%;
+  }
+  #myCategories span {
+    margin-top: 6px !important;
+    font-size: 12px !important;
+  }
+  #myCategories {
+    margin-bottom: 15px !important;
+  }
+  #myCategories .carousel-control-prev {
+    left: 0% !important;
+  }
+  #myCategories .carousel-control-next {
+    right: 0% !important;
+  }
+  #myCategories .carousel-control-next-icon,
+  #myCategories .carousel-control-prev-icon {
+    width: 15px !important;
+    height: 15px !important;
+    background-size: 4px !important;
+  }
+  .koupon-banner-carousel {
+    margin-bottom: 15px !important;
+  }
+
+  .koupon-mobile-vertical-slider-parent .slick-slide img {
+    width: 159px !important;
+  }
+
+  .koupon-mobile-vertical-slider-parent .slick-slide .card {
+    border: 5px solid transparent !important;
+  }
+
+  .koupon-mobile-vertical-slider-parent .slick-next {
+    right: 2px !important;
+    background-image: url("../src/images/Rounded_Rectangle.svg");
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background: #ffffff url("../src/images/Rounded_Rectangle.svg") 50% 50%
+      no-repeat padding-box;
+    box-shadow: 0px 3px 10px #60606029;
+    background-size: 4px !important;
+  }
+
+  .koupon-mobile-vertical-slider-parent .slick-prev {
+    left: 2px !important;
+    z-index: 9999;
+    background-image: url("../src/images/method-draw-image.svg");
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background: #ffffff url("../src/images/method-draw-image.svg") 50% 50%
+      no-repeat padding-box;
+    box-shadow: 0px 3px 10px #60606029;
+    background-size: 4px !important;
+  }
+
+  .koupon-mobile-vertical-slider-parent .slick-prev:hover,
+  koupon-mobile-vertical-slider-parent .slick-prev:focus {
+    background: #ffffff url("../src/images/method-draw-image.svg") 50% 50%
+      no-repeat padding-box !important;
+    box-shadow: 0px 3px 10px #60606029;
+    background-size: 4px !important;
+  }
+  .koupon-mobile-vertical-slider-parent .slick-next:hover,
+  .koupon-mobile-vertical-slider-parent .slick-next:focus {
+    background: #ffffff url("../src/images/Rounded_Rectangle.svg") 50% 50%
+      no-repeat padding-box !important;
+    box-shadow: 0px 3px 10px #60606029;
+    background-size: 4px !important;
+  }
+
+  .koupon-mobile-vertical-slider-parent .slick-next::before,
+  .koupon-mobile-vertical-slider-parent .slick-prev::before {
+    content: none;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) and (min-height: 800px) {
+  .koupon-mobile-menu-vertically-align {
+    padding: 25% 0 25% 0 !important;
+  }
+  .koupon-nav-item-a {
+    font-size: 21px !important;
+  }
+}
+
+@media only screen and (min-width: 414px) {
+  .koupon-mobile-footer {
+    padding: 30px 52px 18px 52px !important;
+  }
+
+  .koupon-mobile-deals-slider-parent .card {
+    width: 116px !important;
+  }
+
+  .koupon-mobile-deals-slider-parent .slick-slide .card {
+    margin: 15px 5px 30px 5px;
+  }
+
+  .koupon-mobile-offers-slider-parent .card {
+    width: 116px !important;
+  }
+
+  .koupon-mobile-offers-slider-parent .slick-slide .card {
+    margin: 15px 5px 30px 5px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .koupon-panda-mobile-footer-menu-text {
+    font-size: 12px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container-body-koupon {
+    padding-right: 85px !important;
+    padding-left: 85px !important;
+  }
+}
+
+/********************************************************/
+
+#myCategories .img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #041e42 0% 0% no-repeat padding-box;
+  box-shadow: 0px 8px 22px #60606029;
+  margin: auto;
+}
+#myCategories .img img {
+  display: block;
+  margin: auto;
+}
+
+#myCategories .fashion img {
+  width: 29px;
+  height: 100%;
+}
+
+#myCategories .food img {
+  width: 37px;
+  height: 100%;
+}
+
+#myCategories .travel img {
+  width: 54px;
+  height: 100%;
+}
+
+#myCategories .electronics img {
+  width: 23px;
+  height: 100%;
+}
+
+#myCategories .beauty img {
+  width: 42px;
+  height: 100%;
+}
+
+#myCategories .jewelry img {
+  width: 45px;
+  height: 100%;
+}
+
+#myCategories .auto img {
+  width: 50px;
+  height: 100%;
+}
+
+#myCategories .carousel-indicators {
+  bottom: 0;
+}
+
+#myCategories .no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+#myCategories .carousel-control-next-icon {
+  background-image: url("../src/images/Rounded_Rectangle.svg");
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  background: #ffffff url(../src/images/Rounded_Rectangle.svg) 50% 50% no-repeat
+    padding-box;
+  box-shadow: 0px 3px 10px #60606029;
+}
+#myCategories .carousel-control-prev-icon {
+  background-image: url("../src/images/Rounded_Rectangle.svg");
+  transform: rotate(180deg);
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  background: #ffffff url(../src/images/Rounded_Rectangle.svg) 50% 50% no-repeat
+    padding-box;
+  box-shadow: 0px 3px 10px #60606029;
+}
+#myCategories .carousel-control-next {
+  right: -2%;
+  bottom: 30%;
+}
+#myCategories .carousel-control-prev {
+  left: -2%;
+  bottom: 30%;
+}
+
+#myCategories span {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  font-family: nunito-regular;
+  margin-top: 11px;
+}
+
+#myCategories {
+  margin-bottom: 36px;
+}
+
+/******************************************************************************/
+
+#myVerticalSlider .carousel-indicators {
+  bottom: 0;
+}
+
+#myVerticalSlider .card {
+  box-shadow: 0px 8px 22px #60606029;
+  border-radius: 5px;
+}
+
+#myVerticalSlider .no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+#myVerticalSlider .carousel-control-next-icon {
+  background-image: url("../src/images/Rounded_Rectangle.svg");
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  background: #ffffff url(../src/images/Rounded_Rectangle.svg) 50% 50% no-repeat
+    padding-box;
+  box-shadow: 0px 3px 10px #60606029;
+}
+#myVerticalSlider .carousel-control-prev-icon {
+  background-image: url("../src/images/Rounded_Rectangle.svg");
+  transform: rotate(180deg);
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  background: #ffffff url(../src/images/Rounded_Rectangle.svg) 50% 50% no-repeat
+    padding-box;
+  box-shadow: 0px 3px 10px #60606029;
+}
+#myVerticalSlider span {
+  display: block;
+  text-align: center;
+  font-size: 22px;
+}
+
+#myVerticalSlider .row.text-center {
+  padding-bottom: 40px;
+}
+
+#myVerticalSlider .carousel-control-next {
+  right: -2%;
+  padding-bottom: 40px;
+}
+#myVerticalSlider .carousel-control-prev {
+  left: -2%;
+  padding-bottom: 40px;
+}
+
+/***************************************************************************/
+
+/******************************************************************************/
+
+#myDealsSliderContainer {
+  margin-bottom: 28px;
+  font-family: nunito-bold;
+  letter-spacing: -0.26px;
+  color: #242635;
+}
+
+#myDealsSlider .row.text-center {
+  padding-bottom: 40px;
+}
+
+#myDealsSliderContainer > h3 {
+  font-size: 26px;
+}
+
+#myDealsSlider .carousel-indicators {
+  bottom: 0;
+}
+
+#myDealsSlider .card {
+  width: 167px;
+  height: 202px;
+}
+
+#myDealsSlider .no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+#myDealsSlider .carousel-control-next {
+  right: -2%;
+  padding-bottom: 40px;
+}
+#myDealsSlider .carousel-control-prev {
+  left: -2%;
+  padding-bottom: 40px;
+}
+#myDealsSlider .carousel-control-next-icon {
+  background-image: url("../src/images/Rounded_Rectangle.svg");
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  background: #ffffff url(../src/images/Rounded_Rectangle.svg) 50% 50% no-repeat
+    padding-box;
+  box-shadow: 0px 3px 10px #60606029;
+}
+#myDealsSlider .carousel-control-prev-icon {
+  background-image: url("../src/images/Rounded_Rectangle.svg");
+  transform: rotate(180deg);
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  background: #ffffff url(../src/images/Rounded_Rectangle.svg) 50% 50% no-repeat
+    padding-box;
+  box-shadow: 0px 3px 10px #60606029;
+}
+
+/***************************************************************************/
+
+/******************************************************************************/
+
+#myOffersSliderContainer {
+  margin-bottom: 28px;
+  font-family: nunito-bold;
+  letter-spacing: -0.26px;
+  color: #242635;
+}
+
+#myOffersSliderContainer > h3 {
+  font-size: 26px;
+}
+
+#myOffersSlider .row.text-center {
+  padding-bottom: 40px;
+}
+
+#myOffersSlider .carousel-indicators {
+  bottom: 0;
+}
+
+#myOffersSlider .card {
+  width: 167px;
+  height: 202px;
+}
+
+#myOffersSlider .no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+#myOffersSlider .carousel-control-next {
+  right: -2%;
+  padding-bottom: 40px;
+}
+#myOffersSlider .carousel-control-prev {
+  left: -2%;
+  padding-bottom: 40px;
+}
+#myOffersSlider .carousel-control-next-icon {
+  background-image: url("../src/images/Rounded_Rectangle.svg");
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  background: #ffffff url(../src/images/Rounded_Rectangle.svg) 50% 50% no-repeat
+    padding-box;
+  box-shadow: 0px 3px 10px #60606029;
+}
+#myOffersSlider .carousel-control-prev-icon {
+  background-image: url("../src/images/Rounded_Rectangle.svg");
+  transform: rotate(180deg);
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  background: #ffffff url(../src/images/Rounded_Rectangle.svg) 50% 50% no-repeat
+    padding-box;
+  box-shadow: 0px 3px 10px #60606029;
+}
+
+/***************************************************************************/
+
+.vertical-slider-koupon-card {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 8px 22px #60606029;
+  border-radius: 8px;
+}
+
+.vertical-slider-koupon-body {
+  position: absolute;
+  bottom: 0;
+  color: #ffffff;
+}
+
+.koupon-mobile-vertical-slider-koupon-body {
+  position: absolute;
+  bottom: 0;
+  color: #ffffff;
+}
+
+.vertical-slider-koupon-text {
+  letter-spacing: -0.12px;
+  font-family: nunito-regular;
+  font-size: 15px;
+}
+
+.koupon-mobile-vertical-slider-koupon-text {
+  letter-spacing: -0.23px;
+  font-family: nunito-regular;
+  font-size: 12px;
+}
+
+.koupon-mobile-vertical-slider {
+  outline: none !important;
+}
+
+.deals-koupon-slider-img-yellow {
+  background: #feee00 0% 0% no-repeat padding-box;
+}
+
+.deals-koupon-slider-img-yellow > img {
+  width: 107px;
+}
+
+.deals-koupon-slider-img-blue {
+  background: #008bff 0% 0% no-repeat padding-box;
+}
+
+.deals-koupon-slider-img-blue > img {
+  width: 89px;
+}
+
+.deals-koupon-slider-img-red {
+  background: #e20714 0% 0% no-repeat padding-box;
+}
+
+.deals-koupon-slider-img-red > img {
+  width: 124px;
+}
+
+.deals-koupon-slider-img-black {
+  background: #000000 0% 0% no-repeat padding-box;
+}
+
+.deals-koupon-slider-img-black > img {
+  width: 72px;
+}
+
+.deals-koupon-slider-img-black-one {
+  background: #000000 0% 0% no-repeat padding-box;
+}
+
+.deals-koupon-slider-img-black-one > img {
+  width: 80px;
+}
+
+.deals-koupon-slider-card > div {
+  border-radius: 8px 8px 0px 0px;
+  height: 120px;
+  width: 100%;
+}
+
+.deals-koupon-slider-timer {
+  background: url(../src/images/iconfinder_Reminder_1393653.svg);
+  background-repeat: no-repeat;
+  text-align: left;
+  background-position: 10px 9px;
+  background-size: 10px 10px;
+  padding: 0 10px 0 10px;
+}
+
+.deals-koupon-slider-timer-p {
+  margin-top: 10px;
+  letter-spacing: -0.16px;
+  color: #242635;
+  font-size: 16px;
+  font-family: nunito-bold;
+}
+
+.deals-koupon-slider-timer-span {
+  margin-left: 15px;
+  font-size: 9px;
+  letter-spacing: -0.09px;
+  color: #242635;
+  font-family: nunito-light;
+}
+
+.deals-koupon-slider-card {
+  border: 0;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 8px 22px #60606029;
+  border-radius: 8px;
+}
+
+/************************OFFERS CSS***********************************/
+.offers-koupon-slider-img-dark-red {
+  background: #d6001c 0% 0% no-repeat padding-box;
+}
+
+.offers-koupon-slider-img-dark-red > img {
+  width: 107px;
+}
+
+.offers-koupon-slider-img-dark-blue {
+  background: #003773 0% 0% no-repeat padding-box;
+}
+
+.offers-koupon-slider-img-dark-blue > img {
+  width: 106px;
+}
+
+.offers-koupon-slider-img-orange {
+  background: #ff4610 0% 0% no-repeat padding-box;
+}
+
+.offers-koupon-slider-img-orange > img {
+  width: 116px;
+}
+
+.offers-koupon-slider-img-black {
+  background: #000000 0% 0% no-repeat padding-box;
+}
+
+.offers-koupon-slider-img-black > img {
+  width: 99px;
+}
+
+.offers-koupon-slider-img-pink {
+  background: #ff244f 0% 0% no-repeat padding-box;
+}
+
+.offers-koupon-slider-img-pink > img {
+  width: 75px;
+}
+
+.offers-koupon-slider-card > div {
+  border-radius: 8px 8px 0px 0px;
+  height: 120px;
+  width: 100%;
+}
+
+.offers-koupon-slider-timer {
+  background: url(../src/images/iconfinder_Reminder_1393653.svg);
+  background-repeat: no-repeat;
+  text-align: left;
+  background-position: 10px 9px;
+  background-size: 10px 10px;
+  padding: 0 10px 0 10px;
+}
+
+.offers-koupon-slider-timer-p {
+  margin-top: 10px;
+  letter-spacing: -0.16px;
+  color: #242635;
+  font-size: 16px;
+  font-family: nunito-bold;
+}
+
+.offers-koupon-slider-timer-span {
+  margin-left: 15px;
+  font-size: 9px;
+  letter-spacing: -0.09px;
+  color: #242635;
+  font-family: nunito-light;
+}
+
+.offers-koupon-slider-card {
+  border: 0;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 8px 22px #60606029;
+  border-radius: 8px;
+}
+/*********************************************************************/
+
+.koupon-banner {
+  text-align: center;
+  margin-bottom: 40px;
+  box-shadow: 0px 8px 22px #60606029;
+  border-radius: 5px;
+  width: 746px;
+  padding: 0;
+}
+
+.koupon-panda-guide {
+  text-align: center;
+  width: 712px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.koupon-panda-guide-right {
+  display: inline-block;
+  text-align: right;
+}
+
+.koupon-panda-guide-left {
+  display: inline-block;
+  text-align: left;
+  margin-right: 160px;
+}
+
+.koupon-panda-guide-heading {
+  font-size: 46px;
+  font-family: nunito-black;
+  letter-spacing: -0.46px;
+  color: #041e42;
+  margin: 0;
+}
+
+.koupon-panda-guide-left-inner-text {
+  font-family: nunito-light;
+  font-size: 20px;
+  letter-spacing: -0.2px;
+  color: #041e42;
+  margin-bottom: 20px;
+}
+
+.koupon-panda-guide-left-inner-button {
+  display: table;
+  width: 158px;
+  height: 56px;
+  background: #00ab8e 0% 0% no-repeat padding-box;
+  box-shadow: 0px 8px 22px #60606029;
+  border-radius: 42px;
+  margin: 20px 0 0 0;
+}
+
+.koupon-panda-guide-left-inner-anchor {
+  width: 114px;
+  height: 26px;
+  text-align: center;
+  letter-spacing: -0.19px;
+  color: #ffffff;
+  font-size: 19px;
+  font-family: nunito-black;
+  text-decoration: none;
+  display: table-cell;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+.koupon-panda-guide-left-inner {
+  width: 279px;
+}
+
+.koupon-footer {
+  background: #041e42 0% 0% no-repeat padding-box;
+  padding: 36px 0 29px 67px;
+}
+
+.koupon-footer-heading {
+  letter-spacing: 1.88px;
+  color: #ffffff;
+  font-family: nunito-semi-bold;
+  font-size: 25px;
+  margin-bottom: 11px;
+}
+
+.koupon-footer-contact-email {
+  letter-spacing: 1.27px;
+  color: #ffffff;
+  font-size: 17px;
+  font-family: nunito-light;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 3px;
+}
+
+.koupon-footer-social-icons {
+  margin-left: 133px;
+}
+
+.koupon-footer-social-icons > img {
+  margin-right: 20px;
+}
+
+.koupon-footer-inner-heading-email-icons {
+  margin-bottom: 61px;
+  display: inline-block;
+}
+
+.koupon-footer-left {
+  display: inline-block;
+}
+.koupon-footer-right {
+  float: right;
+}
+
+.koupon-footer-right > form {
+  margin-right: 75px;
+}
+
+.koupon-panda-footer-logo-img {
+  margin-right: 27px;
+}
+
+.koupon-panda-footer-logo-inner-text {
+  width: 297px;
+  letter-spacing: 0.07px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 15px;
+  font-family: nunito-light;
+}
+
+.subscribe-footer-koupon {
+  width: 392px !important;
+  height: 61px;
+  background: #3a4972 0% 0% no-repeat padding-box;
+  border-radius: 46px !important;
+  border: none;
+  font-size: 13px;
+  padding-left: 22px;
+  font-family: nunito-regular;
+}
+
+.subscribe-footer-koupon:focus,
+.subscribe-footer-koupon:active {
+  background: #3a4972 0% 0% no-repeat padding-box;
+  color: #fff;
+}
+
+.subscribe-footer-icon-span-koupon {
+  position: absolute;
+  color: #fff;
+  right: 30px;
+  top: 18px;
+  z-index: 9999;
+}
+
+.subscribe-footer-icon-koupon {
+  font-size: 23px;
+}
+
+.koupon-panda-footer-logo-inner > img {
+  width: 185px;
+}
+
+.koupon-footer-right-inner-menu {
+  margin-top: 131px;
+  margin-right: 65px;
+}
+
+.koupon-footer-right-inner-menu-a {
+  font-family: nunito-bold;
+  font-size: 18px;
+  color: #fff;
+}
+
+.koupon-footer-right-inner-menu li {
+  margin-bottom: 20px;
+}
+
+.koupon-footer-right-inner-menu-column {
+  padding-right: unset;
+}
+
+.koupon-copy-rights-text {
+  font-size: 9px;
+  font-family: nunito-regular;
+  letter-spacing: 1.98px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 0.5;
+  margin-top: 43px;
+}
+
+.koupon-footer-small-menu {
+  font-size: 11px;
+  font-family: nunito-regular;
+  letter-spacing: 2.42px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 0.5;
+  margin-top: 41px;
+}
+
+.koupon-footer-small-menu-terms {
+  margin-right: 25px;
+}
